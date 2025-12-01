@@ -5,35 +5,26 @@ id_pattern = re.compile(r'^.\d+$')
 
 
 # Fetch initial admin list
-ADMIN = []  # TemporLoad admins when the bot starts
-
-TOKEN_VERIFY=False
-API = environ.get("API", "5a7508a173d6462e4cd4b723766b92541c389a6b") # shortlink api
-URL = environ.get("URL", "arolinks.com") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+Gt55OVP7VTAyNmNl") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "Ghjjjoooo_bot") # bot username without @
-VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
-USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based on hours
+ADMIN = [5632920627]  # TemporLoad admins when the bot starts
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "9911380")
+    API_HASH  = os.environ.get("API_HASH", "b9d1a9112401026acdfc094dc63394ac")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8217078106:AAEW23YfN-XRQ6wmzHsSHitaAuWlgvJ1WyU") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Agastin")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Agastin:U3sy2yPCqZW5evMi@cluster0.zvjb81i.mongodb.net/?appName=Cluster0")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "6290450484"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
-    BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/cad6d11a62a0d7bea2671-45849ed0a2355b53e4.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "allanimetamil177").split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1003241738521"))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
     # wes response configuration     
@@ -43,7 +34,7 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {} 👋 
+    START_TXT = """Hello {} 👋 welcome thanks for use me. owner : @agastin177
 
 <blockquote>➻ This Is An Advanced Auto rename Bot.
 
@@ -55,7 +46,7 @@ class Txt(object):
 
 <blockquote><b>Bot Is Made By :</b> @Tech_Freak_Tamil</blockquote>"""
 
-    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/Tech_Freak_Tamil'>Auto Renamer bot ⚡</a>
+    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/allanimetamil177'>AG Renamer bot ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
