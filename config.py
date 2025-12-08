@@ -9,23 +9,21 @@ ADMIN = []  # TemporLoad admins when the bot starts
 
 TOKEN_VERIFY=False
 API = environ.get("API", "5a7508a173d6462e4cd4b723766b92541c389a6b") # shortlink api
-URL = environ.get("URL", "arolinks.com") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+Gt55OVP7VTAyNmNl") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "Ghjjjoooo_bot") # bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "agxrenamebot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
-USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based on hours
+USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "24"))#enter time based on hours
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "9911380")
+    API_HASH  = os.environ.get("API_HASH", "b9d1a9112401026acdfc094dc63394ac")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
+    DB_NAME = os.environ.get("DB_NAME","agastin")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "6290450484"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
@@ -33,7 +31,7 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1003423122230" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
     # wes response configuration     
@@ -43,7 +41,7 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {} 👋 
+    START_TXT = """Hello {mention user name} 👋 
 
 <blockquote>➻ This Is An Advanced Auto rename Bot.
 
@@ -53,16 +51,16 @@ class Txt(object):
 
 ➻ This Bot is only for Admin use other can use with low limitation </blockquote>
 
-<blockquote><b>Bot Is Made By :</b> @Tech_Freak_Tamil</blockquote>"""
+<blockquote><b>Bot Is Made By :</b> @agastin177</blockquote>"""
 
-    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/Tech_Freak_Tamil'>Auto Renamer bot ⚡</a>
+    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/agastin177'>AG x Renamer Bot Tamilan da ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Tech_Freak_Tamil'>TFT BOTS</a>
-<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>
+<b>📢 Channel :</b> <a href='https://t.me/narutoshippudentamil177'>naruto shippuden tami</a>
+<b>🛡️ Disscussion :</b> <a href='https://t.me/+HltPklAS_IMxNjZl'>AG x All Anime Chat</a></blockquote>
     
-<blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>"""
+<blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/+HltPklAS_IMxNjZl'>AG c All Anime Chat</a></blockquote>"""
 
     HELP_TXT = """<blockquote>
 🌌 <b><u>How To Set Thumbnail</u></b>
